@@ -1,0 +1,23 @@
+/* importing font from google fonts(Lato [font-weight:400,700]) */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+/* base files (reseting default browser styles and setting css variables) */
+
+@import "./vars.css";
+@import "./reset.css";
+
+/*importing each sections*/
+
+@import "./hero.css";
+@import "./about.css";
+@import "./services.css";
+@import "./featured.css";
+@import "./letter.css";
+@import "./gallery.css";
+@import "./footer.css";
+@import "./navbar.css";
+
+html{
+    scroll-behavior: smooth;
+}
