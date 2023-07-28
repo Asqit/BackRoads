@@ -1,4 +1,11 @@
-window.addEventListener("load",(e)=> {
-    document.querySelector(".js-year").innerHTML = new Date().getFullYear();
+"use strict";
 
-},false);
+function appendDateToFooter() {
+	document.querySelector(".js-year").innerHTML = new Date().getFullYear();
+}
+
+function main(e) {
+	appendDateToFooter();
+}
+
+window.addEventListener("load", main, false);
